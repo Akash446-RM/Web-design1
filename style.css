@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  background: #fff;
+  width: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.header {
+  background-color: #166534;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.illustration {
+  background-color: #d1fae5;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.illustration img {
+  border-radius: 38px;
+  max-width: 65%;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.content p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.features {
+  text-align: left;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.features li {
+  padding: 6px 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.inputs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+select, input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #166534;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #14532d;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agri Advisory</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="header">
+      <h1>Agri Advisory</h1>
+    </header>
+
+    <!-- Illustration -->
+    <section class="illustration">
+      <img src="hac.jpg" alt="Farmer Illustration">
+    </section>
+
+    <!-- Content -->
+    <section class="content">
+      <h2>Hello, farmer!</h2>
+      <p>
+        A multilingual AI-based app provides real-time, location-specific crop advisory.
+      </p>
+
+      <ul class="features">
+        <li>🥕 Soil health recommendations</li>
+        <li>🌧 Weather alerts</li>
+        <li>🐛 Pest and disease detection</li>
+        <li>📈 Market price tracking</li>
+      </ul>
+
+      <!-- Inputs -->
+      <div class="inputs">
+        <select id="language">
+          <option  value="" disabled selected>select language</option>
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+          <option value="Kannada">Kannada</option>
+          <option value="Tamil">Tamil</option>
+        </select>
+        <input type="text" id="location" placeholder="Village, Town">
+      </div>
+
+      <!-- Button -->
+      <button id="voiceBtn">🎙 Voice Assistant</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
